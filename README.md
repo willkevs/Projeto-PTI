@@ -3,8 +3,8 @@
 Projeto Integrador de Análise e Desenvolvimento de Sistemas (Senac EAD — TADS/TSI) · **2ª etapa: Prova de Conceito (PoC)**.
 Aplicação web para conectar pessoas que desejam doar ou vender livros a leitores da comunidade.
 
-> **Integrantes do grupo:** _Igor Rodrigues da Silva, José Carlos Pereira, Marcelo Rizzetto Gumiero, Pablo Henrique dos Santos Reis e William Kevin Buarque Pereira
-_
+> **Integrantes do grupo:** Igor Rodrigues da Silva, José Carlos Pereira, Marcelo Rizzetto Gumiero, Pablo Henrique dos Santos Reis e William Kevin Buarque Pereira
+
 
 ## Sumário
 
