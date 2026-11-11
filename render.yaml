@@ -1,0 +1,18 @@
+# Blueprint do Render (plano gratuito). O banco fica FORA do Render (Neon/Supabase): o Postgres gratuito do Render expira em 30 dias.
+services:
+  - type: web
+    name: livro-circular
+    runtime: docker
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: Database__Provider
+        value: Postgres
+      - key: ConnectionStrings__DefaultConnection
+        sync: false   # cole a string do Neon ou do Supabase no painel (segredo)
+      - key: Admin__Email
+        sync: false
+      - key: Admin__InitialPassword
+        sync: false   # segredo: troque a senha depois do primeiro login
+      - key: Hosting__BehindProxy
+        value: "true"

@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>LivroCircular</RootNamespace>
+    <UserSecretsId>c908eb29-d04a-41ba-9b73-502c67986fa5</UserSecretsId>
+  </PropertyGroup>
+  <!-- PostgreSQL é opcional: dotnet build -p:UsePostgres=true (veja docs/HOSPEDAGEM.md). O build padrão usa só SQLite. -->
+  <PropertyGroup Condition="'$(UsePostgres)' == 'true'">
+    <DefineConstants>$(DefineConstants);POSTGRES</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="10.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.14" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(UsePostgres)' == 'true'">
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.0" />
+  </ItemGroup>
+</Project>
