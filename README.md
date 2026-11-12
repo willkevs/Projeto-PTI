@@ -260,7 +260,7 @@ Contrato completo da versão 2: [`docs/API_V2.md`](docs/API_V2.md).
 
 - [`DOCUMENTACAO_ARQUITETURA.md`](DOCUMENTACAO_ARQUITETURA.md) — revisita e definição da PoC, jornada, componentes e dados.
 - [`CONTRATO_API.md`](CONTRATO_API.md) — contrato resumido da API.
-- `docs/telas/` — prints das telas (cadastro com cookies, proposta, contrato, devolução com evidência, notificações, celular e tablet).
+- [`docs/telas/`](https://github.com/willkevs/Projeto-PTI/blob/12b932096d0ad8e37df74eba24bdef4ca8778651/docs/telas/gravacoes) — prints das telas (cadastro com cookies, proposta, contrato, devolução com evidência, notificações, celular e tablet).
 - [`docs/API_V2.md`](docs/API_V2.md) — contrato da API da versão 2.
 - [`docs/HOSPEDAGEM.md`](docs/HOSPEDAGEM.md) — hospedagem gratuita e bancos online.
 - [`docs/RETENCAO_DADOS.md`](docs/RETENCAO_DADOS.md) — por quanto tempo cada dado é guardado.
